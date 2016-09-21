@@ -46,7 +46,7 @@ def extract_png(input)
   ofp.close
 end
 
-ttf = File.new("/System/Library/Fonts/Apple Color Emoji.ttf","rb")
+ttf = File.new("/System/Library/Fonts/Apple Color Emoji.ttc","rb")
 ttf_data = ttf.read
 
 pos = 0
